@@ -1,0 +1,102 @@
+
+/* HTML-------------------------------------------------------- EQUIPO */
+
+.plantilla {
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family: nba-celtics;
+
+}
+
+
+.primer-team {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+
+}
+
+.primer-team div {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.team-foto {
+    width: 200px;
+    @include border-img-2($colorFondo,  $bordeGrande);
+}
+
+.desc-players li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.suplentes {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 38px;
+    text-decoration: underline;
+    font-weight: 800;
+    font-family: nba-celtics;
+}
+
+.primer-team div ul li {
+    font-size: 20px;
+}
+
+/* SEGUNDO TEAM */
+
+.segundo-team {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.segundo-team div {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.team-foto2 {
+    width: 200px;
+    @include border-img-2($colorFondo,  $bordeGrande);
+}
+
+.segundo-team div ul li {
+    font-size: 20px;
+}
+
+/* COACH */
+
+.suplentes {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 38px;
+    text-decoration: underline;
+    font-weight: 800;
+}
+
+.coach-team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.udoka-foto {
+    width: 500px;
+    @include border-img-2($colorFondo,  $bordeGrande);
+}
+
+.coach-team ul li {
+    font-size: 20px;
+}

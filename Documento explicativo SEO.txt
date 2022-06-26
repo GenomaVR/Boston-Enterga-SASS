@@ -1,0 +1,32 @@
+En todos los archivos html sume el SEO con las siguentes caracterisiticas.
+
+	Descripcion:
+    
+    - mediante la etiqueta meta name description aregue en el index lo siguiente.
+        "La mejor pagina para mantenerte informado acerca de los boston celtics, noticias, historia, galeria de partidos y mas! todo aqui en Boston Celtics para todo LATAM!"
+
+    En el historia.html agregue.
+        "Historia de la mejor franquicia de toda la NBA, boston celtics, desde sus inicios hasta ahora!"
+
+    En el galeria.html agregue.
+        "Galeria de fotos de todos los partidos de los boston celtics de 2022 en HD"
+
+    En el equipo.html agregue.
+        "Aqui podras ver la formacion completa de los Boston Celtics actualizada!"
+
+    En el contacto.html agregue.
+        "Queres enviarnos un mail con alguna noticia que quieras agregar? alguna foto que no hayamos subido? o algun tipo de aporte? no dudes en contactarnos!"
+
+    Palabras Clave:
+    
+    -Mediante la etiqueta meta name keywords agregue las palabras clave que acompañaran a todas las paginas de mi sitio:
+        "NBA, BOSTON, CELTICS, NOTICIAS, EQUIPO, COMUNIDAD, BASQUET, PLAYOFF"
+
+    
+    Encabezado:
+
+    -Para el Encabezado del h1 utilice el texto " BIENVENIDOS AL TEMPLO"
+
+    
+
+         
