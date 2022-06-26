@@ -1,0 +1,7 @@
+#Ignorar estos
+node_modules/
+package-lock.json
+
+#pero no este
+
+!node_modules/bootstrap
