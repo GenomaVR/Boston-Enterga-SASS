@@ -7921,7 +7921,7 @@ textarea.form-control-lg {
 
 /* BKG IMG */
 .bkg-img {
-  width: 100%;
+  margin-top: 0;
   height: 100vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), #3eb535), url(../bkg-contacto/garnett.jpg);
   background-position: center;
@@ -7930,6 +7930,11 @@ textarea.form-control-lg {
   align-items: center;
   justify-content: center;
   flex-direction: column; }
+
+#forum-bkg {
+  width: 100%;
+  margin: 0;
+  margin-top: 0px; }
 
 /* Secciones */
 /* ----------------CONTACTO HTML------------------ */
