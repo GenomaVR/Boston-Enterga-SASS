@@ -8047,7 +8047,8 @@ textarea.form-control-lg {
   display: flex;
   flex-direction: column;
   align-items: center;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  margin-top: 30px; }
 
 .udoka-foto {
   width: 500px;
@@ -8171,7 +8172,9 @@ footer {
 .auer-img {
   width: 350px;
   margin-top: 20px;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  margin-left: 40px;
+  margin-right: 40px; }
 
 /* TITULO Y ANIMATE */
 /* carousel */
@@ -8181,15 +8184,13 @@ footer {
   align-items: center; }
 
 .carousel-inner .carousel-item img {
-  width: 700px;
-  height: 792px; }
+  width: 700px; }
 
 .carouselExampleIndicators {
   width: 700px; }
 
 .carousel {
-  width: 1300px;
-  height: 800px;
+  width: 1200px;
   border: solid 4px black; }
 
 .carousel-caption h5, .carousel-caption .h5 {
