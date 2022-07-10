@@ -7991,13 +7991,28 @@ textarea.form-control-lg {
   flex-wrap: wrap;
   margin-top: 20px; }
 
+.smart-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: #007A33 solid 4px;
+  box-shadow: 0px 10px 18px 0px black;
+  -webkit-box-shadow: 0px 10px 18px 0px black;
+  -moz-box-shadow: 0px 10px 18px 0px black; }
+
+.team-foto {
+  margin: 10px; }
+
+.desc-players {
+  margin: 10px; }
+
 .primer-team div {
   margin-left: 50px;
   margin-right: 50px; }
 
 .team-foto {
   width: 200px;
-  border: #007A33 solid 4px; }
+  border: solid 2px black; }
 
 .desc-players li {
   margin-top: 10px;
@@ -8021,7 +8036,7 @@ textarea.form-control-lg {
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
-  margin-top: 20px; }
+  margin-top: 30px; }
 
 .segundo-team div {
   margin-left: 50px;
@@ -8029,7 +8044,8 @@ textarea.form-control-lg {
 
 .team-foto2 {
   width: 200px;
-  border: #007A33 solid 4px; }
+  border: solid 2px black;
+  margin: 10px; }
 
 .segundo-team div ul li {
   font-size: 20px; }
@@ -8179,9 +8195,63 @@ footer {
 /* TITULO Y ANIMATE */
 /* carousel */
 .titulares {
+  width: 100vw;
+  height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center; }
+  align-items: center;
+  margin-top: 30px; }
+
+.content-animation {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.slider-wrapper {
+  font-size: 70px;
+  color: #007A33;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px; }
+
+.slider {
+  height: 90px;
+  padding-left: 15px;
+  overflow: hidden; }
+
+.slider div {
+  color: #fff;
+  margin-bottom: 50px;
+  padding: 2px 15px;
+  text-align: center; }
+
+.slider-text1 {
+  background: #3eb535;
+  animation: slide 4s linear infinite; }
+
+.slider-text2 {
+  background: #3eb535; }
+
+.slider-text3 {
+  background: #3eb535; }
+
+@keyframes slide {
+  0% {
+    margin-top: -330px; }
+  20% {
+    margin-top: -330px; }
+  33% {
+    margin-top: -170px; }
+  50% {
+    margin-top: -170px; }
+  58% {
+    margin-top: -82px; }
+  63% {
+    margin-top: -10px; }
+  100% {
+    margin-top: -10px; } }
 
 .carousel-inner .carousel-item img {
   width: 700px; }

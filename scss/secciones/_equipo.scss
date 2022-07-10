@@ -20,6 +20,25 @@
 
 }
 
+.smart-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @include border-img-2($colorFondo,  $bordeGrande);
+
+    box-shadow: 0px 10px 18px 0px rgba(0,0,0,1);
+-webkit-box-shadow: 0px 10px 18px 0px rgba(0,0,0,1);
+-moz-box-shadow: 0px 10px 18px 0px rgba(0,0,0,1);
+}
+
+.team-foto {
+    margin: 10px;
+}
+
+.desc-players {
+    margin: 10px;
+}
+
 .primer-team div {
     margin-left: 50px;
     margin-right: 50px;
@@ -27,7 +46,7 @@
 
 .team-foto {
     width: 200px;
-    @include border-img-2($colorFondo,  $bordeGrande);
+    border: solid 2px black;
 }
 
 .desc-players li {
@@ -57,7 +76,7 @@
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .segundo-team div {
@@ -67,7 +86,8 @@
 
 .team-foto2 {
     width: 200px;
-    @include border-img-2($colorFondo,  $bordeGrande);
+    border: solid 2px black;
+    margin: 10px;
 }
 
 .segundo-team div ul li {
